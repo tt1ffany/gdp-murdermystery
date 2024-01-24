@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio Player</title>
+</head>
+<body>
+<p style="color: red; font-family: Architects Daughter; font-size: 175%; position: relative; left: 630px; top: 520px; z-index: 1;"><b>↑ CLICK TO PLAY ↑</b></p>
+<p style="color: red; font-family: Architects Daughter; font-size: 100%; position: relative; left: 680px; top: 500px;"><b>(Click once to pause)</b></p>
+
+<div class="audio-container">
+    <div class="audio-item" onclick="playNextAudio(0)">
+        <audio id="audio1" src="audio1.mp3"></audio>
+        <p class="audio-title"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
